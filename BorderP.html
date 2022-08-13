@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Border Radius Generator</title>
+    <link rel="stylesheet" href="BorderP.css">
+</head>
+<body>
+    <div class="twocolumns">
+        <div class="left">
+            <h1>Border Radius Previewer</h1>
+            <div class="slidercontainer">
+                <header>Top Left Angle:</header>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="top-left">
+                <header>Top Right Angle:</header>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="top-right">
+                <header>Bottom Left Angle:</header>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="bottom-left">
+                <header>Bottom Right Angle:</header>
+                <input type="range" min="-100" max="100" value="0" class="slider" id="bottom-right">
+            </div>
+            <input type="text" class="code" readonly="true"> 
+        </div>
+        <div class="right">
+            <header></header>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="BorderP.js"></script>
+</body>
+</html>

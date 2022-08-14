@@ -41,13 +41,15 @@ div{
 }
 
 .code{
-    width: 65%;
-    height: 25%;
-    margin-top: 5%;
-    justify-content: center;
+    resize: none;
+    width: 78%;
+    height: 5%;
+    margin: 2% 0;
     border-radius: 3mm;
     border:2px solid #ffffff; 
     box-shadow: 0 0 15px 1px #afafb4;
+    font-weight: bold;
+    padding-top: 6px;
 }
 
 .right{
@@ -55,7 +57,6 @@ div{
     background: linear-gradient(to right,#c5c5fd,#84cdfd);
     width: 49%;
     margin-left: 1%;
-    border-radius: 3mm;
     height: 80%;
     margin-top: 5%;
     margin-right: 4%;
